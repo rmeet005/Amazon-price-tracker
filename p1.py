@@ -44,7 +44,7 @@ def send_email():
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login("meetraval999@gmail.com","dtzg ankt xlgw mfgi")
+    server.login("meetraval999@gmail.com","your password")
     subject="price is down"
     body= "place your order now price is in our budget now:",url
     msg=f"Subject:{subject}\n\n\n{body}"
